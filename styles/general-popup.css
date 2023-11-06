@@ -1,0 +1,71 @@
+body {
+    font-family: Arial;
+}
+
+.Left-Section {
+    width: 65px;
+    padding-left: 15px;
+
+}
+
+.Home,
+.Search,
+.Explore,
+.Reels,
+.Messages,
+.Notifications,
+.Create,
+.Profile,
+.More {
+    height: 30px;
+    width: 50px;
+    padding-left: 0;
+}
+
+.Search {
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 8px;
+    width: 45px;    
+    height: 25px;
+}
+
+.More {
+    width: 45px;
+}
+
+.instagram-icon {
+    height: 30px;
+    padding-left: 15px;
+}
+
+.Home-Icon,
+.Profile-Icon,
+.Create-Icon {
+    height: 32px;
+    padding-left: 10px;
+}
+
+/* .Search-Icon, */
+.Explore-Icon,
+.Reels-Icon,
+.Messages-Icon,
+.Notifications-Icon,
+.More-Options-Icon {
+    height: 28px;
+    padding-left: 10px;
+    /* padding-left: 4px; */
+}
+
+.Search-Icon {
+    height: 25px;
+    padding-left: 10px;
+
+}
+
+.Messages-Tooltip {
+    left: 25px;
+}
+
+.Notifications-Tooltip {
+    left: 28px;
+}

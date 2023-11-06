@@ -1,0 +1,41 @@
+.square-image {
+    height: 250px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.square-image2 {
+    height: 250px;
+    margin-top: -15px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.square-image3 {
+    height: 445px;
+    width: 443px;
+    margin-top: -447px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.inverted-rectangle {
+    cursor: pointer;
+    height: 500px;
+}
+
+.rectangle {
+    cursor: pointer;
+    height: 244px;
+    width: 655px;
+    margin-top: -248px;
+    vertical-align: top;
+}
+
+.video {
+    margin-top: -15px;
+    height: 700px;
+    cursor: pointer;
+    width: 710px;
+    background-color: black;
+}

@@ -1,0 +1,467 @@
+body {
+    font-family: 'Roboto', Arial;
+    padding-bottom: 300px;
+
+}
+
+.middle-section {
+    margin-left: 300px;
+    white-space: nowrap;
+}
+
+.stories {
+    display: inline-block;
+    margin-bottom: 70px;
+}
+
+.story {
+    padding-top: 2px;
+    height: 67px;
+    margin-right: 15px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: 1px solid rgb(216, 14, 216);
+    border-radius: 35px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+}
+
+.story-preview {
+    height: 60px;
+    width: 60px;
+    border-radius: 35px;
+}
+
+.move-right-container {
+    background-color: white;
+    position: absolute;
+    top: 18px;
+    right: 10px;
+    /* width: 30px; */
+    /* height: 30px; */
+    padding: 5px 8px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.move-right-icon {
+    height: 15px;
+}
+
+.name {
+    margin-top: 10px;
+}
+
+.middle-content {
+    display: block;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    display: inline-block;
+    object-fit: cover;
+}
+
+.video-details {
+    display: inline-block;
+    width: 430px;
+    vertical-align: top;
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+.post {
+    background-color: rgb(247, 247, 247);
+    width: 520px;
+    height: 700px;
+    margin-top: 10px;   
+}
+
+video {
+    object-fit: contain;
+    width: 520px;
+    background-color: black;
+    cursor: pointer;
+    height: 700px;
+}
+
+.image {
+    width: 520px;
+    height: 700px;
+    background-color: rgb(252, 252, 252);
+}
+
+.more-icon {
+    height: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.no-audio {
+    margin-top: 10px;
+}
+
+.days {
+    color: gray;
+    font-weight: normal;
+}
+
+.audio {
+    font-size: 13px;
+}
+
+.like-comments {
+    margin-top: 15px;
+    position: relative;
+    width: 520px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bookmark-icon {
+    height: 23px;
+    display: inline-block;
+    margin-left: 380px;
+    cursor: pointer;
+}
+
+.like-icon {
+    height: 25px;
+    vertical-align: bottom;
+    /* margin-right: 15px; */
+    cursor: pointer;
+}
+
+.like-tooltip {
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    left: -10px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.comments-icon {
+    height: 25px;
+    vertical-align: bottom;
+    /* margin-right: 15px; */
+    cursor: pointer;
+}
+
+.comments-tooltip {
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    left: 20px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;}
+
+.share-icon {
+    height: 23px;
+    vertical-align: bottom;
+    /* margin-right: 20px; */
+    cursor: pointer;
+}
+
+.share-tooltip {
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    left: 75px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.tooltip-container {
+    display: inline-block;
+}
+
+.tooltip-container:hover .like-tooltip,
+.tooltip-container:hover .comments-tooltip,
+.tooltip-container:hover .share-tooltip {
+    opacity: 1;
+}
+
+.i {
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 8px;
+}
+
+.liked-by {
+    margin-bottom: 15px;
+}
+
+.liked-user {
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-top: 15px;
+    cursor: pointer;
+    vertical-align: bottom;
+}
+
+.liked-user2 {
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-left: -11px;
+    vertical-align: bottom;
+}
+
+.liked {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.user-comment {
+    margin-top: 10px;
+}
+
+.see-translation {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 8px;
+    cursor: pointer;
+    display: block;
+}
+
+.view-comments {
+    color: gray;
+    font-size: 15px;
+    margin-top: 8px;
+    cursor: pointer;
+    display: block;
+}
+
+.border {
+    border-bottom: 1px solid rgb(236, 236, 236);
+    width: 520px;
+    padding-bottom: 20px;
+}
+
+input {
+    margin-top: 20px;
+    border: none;
+    width: 430px;
+    font-size: 15px;
+}
+
+input::placeholder {
+    font-size: 15px;
+}
+
+.post-on {
+    display: inline-block;
+    /* padding-right: 10px; */
+    padding-left: 10px;
+    width: 50px;
+    /* background-color: lightblue; */
+    font-weight: bold;
+    color: rgb(34, 148, 214);
+    cursor: pointer;
+}
+
+.emoji-icon {
+    height: 15px;
+    cursor: pointer;
+}
+
+input:focus {
+    outline: none;
+}
+
+.others-comment {
+    margin-top: 10px;
+}
+
+.username {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.thought {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.right-section {
+    margin-left: 60px;
+    padding-top: 10px;
+    width: 450px;
+}
+
+.profile-icon {
+    height: 50px;
+    vertical-align: top;
+    margin-top: -8px;
+}
+
+.details {
+    display: inline-block;
+    margin-left: 20px;
+    width: 252px;
+    vertical-align: top;
+}
+
+.address {
+    /* display: block; */
+    margin-bottom: 2px;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.user-name {
+    display: block;
+    color: gray;
+}
+
+.switch {
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    color: rgb(10, 118, 190);
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.suggested-for-you {
+    display: inline-block;
+    margin-top: 30px;
+    color: gray;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 170px;
+}
+
+.see-all {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.profile-container {
+    margin-top: 20px;
+}
+
+.profile-image {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.stats {
+    display: inline-block;
+    vertical-align: top;
+    width: 268px;
+    cursor: pointer;
+}
+
+.profile-name {
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.followers {
+    display: inline-block;
+    color: gray;
+    font-size: 13px;
+}
+
+.follow-button {
+    background-color: transparent;
+    border: none;
+    color: rgb(10, 118, 190);
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: -25px;
+    vertical-align: middle;
+}
+
+.bottom-links {
+    width: 400px;
+    margin-top: 20px;
+}
+
+.links {
+    display: inline-block;
+    font-size: 13px;
+    /* font-weight: bold; */
+    color: rgb(182, 180, 180);
+    cursor: pointer;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+.dots {
+    color: rgb(148, 148, 148);
+}
+
+.meta {
+    color: rgb(182, 180, 180);
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+.c {
+    font-size: 10px;
+    border: 1px solid rgb(148, 148, 148);
+    vertical-align: middle;
+    border-radius: 5px;
+    padding: 0px 2px;
+    margin-right: 3px;
+}

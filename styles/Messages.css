@@ -1,0 +1,249 @@
+.right-section {
+    background-color: rgb(248, 248, 248);
+    /* width: 500px; */
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 251px;
+    bottom: 0;
+
+    /* z-index: 0; */
+    /* margin-left: 300px; */
+}
+
+.messages-container {
+    display: grid;
+    grid-template-columns: 350px 650px;
+    height: 680px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.left-side {
+    /* background-color: lightpink; */
+    height: 680px;
+    border: 1px solid rgb(233, 233, 233);
+    background-color: #fff;
+    margin-left: -1px;
+}
+
+.message-request {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(1, 154, 224);
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 200px;
+    font-size: 15px;
+}
+
+.message-request:hover {
+    text-decoration: underline;
+}
+
+.left-image {
+    height: 25px;
+    margin-bottom: -5px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.name1 {
+    margin-left: 65px;
+    /* padding-right: 160px; */
+    margin-top: 25px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.not-marked {
+    font-size: 13px;
+    margin-left: 15px;
+    color: gray;
+    height: 30px;
+    margin-top: -10px;
+}
+
+.head {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.info {
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.name {
+    margin-left: 100px;
+    /* padding-right: 160px; */
+    margin-top: 25px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.down-image {
+    height: 25px;
+    margin-bottom: -5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.write-message {
+    height: 25px;
+    cursor: pointer;
+    margin-left: 80px;
+    margin-bottom: -6px;
+}
+
+.border {
+    border-bottom: 1px solid rgb(233, 233, 233);
+    display: block;
+    width: 350px;
+    margin-bottom: 25px;
+}
+
+.friend {
+    /* margin-top: 10px; */
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    /* margin-left: 15px; */
+}
+
+.friend:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+.friend:active {
+    background-color: rgb(230, 230, 230);
+}
+
+.details {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 8px;
+    cursor: pointer;
+    line-height: 22px;
+    width: 228px;
+}
+
+.profile-pic {
+    height: 60px;
+    margin-left: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.friend-name{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.received-message {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.viewed-received-message {
+    font-weight: normal;
+    display: inline-block;
+}
+
+.time-sent,
+.active {
+    color: gray;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.viewed {
+    /* color: gray; */
+    margin-top: -3px;
+    font-weight: normal;
+}
+
+.sent-a-message {
+    color: gray;
+    font-size: 14px;
+    margin-top: -3px;
+}
+
+.dot {
+    color: black;
+}
+
+.emoji {
+    height: 10px;
+    margin-right: -3px;
+}
+
+.emoji2 {
+    height: 10px;
+    margin-left: -3px;
+}
+
+.unread {
+    background-color: rgb(72, 72, 255);
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 22px;
+    /* margin-left: 100px; */
+    border-radius: 20px;
+}
+
+.right-side {
+    /* background-color: lightblue; */
+    height: 680px;
+    border: 1px solid rgb(233, 233, 233);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    /* padding: 10px 15px; */
+    padding-top: 30px;
+    padding-bottom: 35px;
+    padding-left: 32px;
+    padding-right: 40px;
+    border-radius: 500px;
+    border: 3px solid black;
+}
+
+.message-image {
+    height: 55px;
+}
+
+.your-messages{
+    margin-top: 15px;
+    font-size: 23px;
+}
+
+.send {
+    margin-top: 10px;
+    color: rgb(158, 158, 158);   
+}
+
+.send-button {
+    padding: 10px 20px;
+    margin-top: 25px;
+    background-color: rgb(1, 154, 224);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}

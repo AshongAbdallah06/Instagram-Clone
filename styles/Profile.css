@@ -1,0 +1,279 @@
+.right-section {
+    margin-left: 350px;
+}
+
+.user-profile-pic-container {
+    margin-left: 70px;
+    display: inline-block;
+}
+
+.user-profile-pic {
+    height: 170px;
+    width: 170px;
+    border-radius: 100px;
+} 
+
+.about {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+.edit-profile {
+    vertical-align: top;
+    display: inline-block;
+    font-size: 23px;
+    margin-right: 20px;
+}
+
+.edit-profile-button {
+    background-color: rgb(231, 231, 231);
+    font-weight: bold;
+    border: none;
+    margin-right: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 8px 15px;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.edit-settings {
+    vertical-align: top;
+    height: 25px;
+    cursor: pointer;
+}
+
+.posts {
+    margin-right: 40px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.followers {
+    font-size: 18px;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.following {
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.numbers {
+    font-weight: bold;
+}
+
+.name-container {
+    margin-top: 15px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.bleoo-emoji {
+    height: 15px;
+    margin-bottom: -3px;
+    margin-left: -2px;
+}
+
+.highlights {
+    margin-top: 40px;
+    margin-left: 45px;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.story {
+    padding-top: 2px;
+    height: 87px;
+    margin-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    padding-right: 2px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 100px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.story1 {
+    padding-top: 2px;
+    height: 87px;
+    margin-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 100px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.story2 {
+    padding-top: 2px;
+    height: 87px;
+    margin-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 3px;
+    padding-right: 2px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 100px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.story-preview {
+    height: 80px;
+    margin-bottom: -1px;
+    width: 80px;
+    border-radius: 100px;
+}
+
+.highlights-emoji {
+    height: 15px;
+    margin-left: 68px;
+    margin-top: 10px;
+}
+
+.highlights-emoji2 {
+    height: 15px;
+    /* margin-left: 70px; */
+}
+
+.highlights-emoji3 {
+    height: 15px;
+    margin-left: 100px;
+}
+
+.highlights-emoji4 {
+    height: 15px;
+    margin-left: 80px;
+}
+
+.highlights-emoji5 {
+    height: 15px;
+    margin-left: 100px;
+}
+
+.wc22 {
+    display: inline-block;
+    margin-left: 85px;
+}
+
+.comedy {
+    display: inline-block;
+    margin-left: 68px;
+}
+
+.new {
+    margin-left: 95px;
+    font-weight: normal;
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgb(223, 223, 223);
+    width: 1000px;
+    display: block;
+    padding-top: 50px;
+}
+
+.pst {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(160, 160, 160);
+    width: 300px;
+    margin-left: 350px;
+    /* margin-top: 25px; */
+}
+
+.tagged-container {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0px 2px;
+    height: 15px;
+}
+
+.Tagged-Container {
+    height: 14px;
+}
+
+.pst-icon {
+    height: 12px;
+}
+
+.post {
+    border-top: 1px solid #000;
+    color: black;
+}
+
+.post,
+.saved,
+.tagged {
+    cursor: pointer;
+    padding-top: 20px;
+    display: inline-block;
+} 
+
+.Post {
+    color: gray;
+    border-top: none;
+    padding-top: 21px;
+}
+
+.Saved,
+.Tagged {
+    color: black;
+    border-top: 1px solid black;
+    padding-top: 19px;
+}
+
+.share-photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.camera-image {
+    height: 45px;
+}
+
+.circle {
+    padding: 10px 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 500px;
+    border: 3px solid rgb(65, 65, 65);
+
+}
+
+.sharePhotos {
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.share {
+    margin-top: 10px;
+}
+
+.share-first-photo {
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(36, 167, 255);
+}

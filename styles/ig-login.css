@@ -1,0 +1,155 @@
+body{
+    font-family: Arial;
+}
+
+.signup-box{
+    width: 400px;
+    border: 1px solid rgb(211, 210, 210);
+    padding-left: 40px;
+    height: 420px; 
+    display: inline-block;
+}
+
+img{
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.instagram{
+    display: block; 
+    margin-bottom: 50px;
+    font-size: 50px;
+    margin-top: 30px; 
+    margin-left: 65px;
+}
+
+.email,
+.p-word{
+    display: block;
+    width: 350px;
+    padding: 10px 0;
+    padding-left: 7px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(211, 210, 210);
+    font-size: 15px;
+}
+
+.email::placeholder,
+.p-word::placeholder{
+    font-size: 15px;
+}
+
+.email:focus,
+.p-word:focus{
+    outline: none;
+}
+
+.login-button{
+    width: 360px;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(32, 144, 248);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button:hover{
+    background-color: rgb(53, 145, 199);
+}
+
+.login-button:active{
+    background-color: rgb(124, 193, 250);
+}
+
+.bottom-border{
+    margin-top: 0;
+    height: 7px;
+    border-bottom: 1px solid gray;
+    width: 160px;
+    display: inline-block;
+}
+
+.dash{
+    color: white;
+}
+
+.or{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.fb-logo{
+    color: white;
+    background-color: rgb(60, 129, 255);
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.fb-login{
+    color: rgb(60, 129, 255);
+    margin-top: 20px;
+    margin-left: 90px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fb-login:hover{
+    text-decoration: underline;
+}
+
+.forgot-p-word{
+    color: rgb(6, 6, 141);
+    font-size: 15px;
+    margin-left: 90px;
+    margin-top: 20px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.forgot-p-word:hover{
+    text-decoration: underline;
+}
+
+.content-1{
+    width: 400px;
+    border: 1px solid rgb(211, 210, 210);
+    padding-left: 40px;
+    margin-top: 10px;
+    height: 50px;
+}
+
+.new{
+    margin-left: 60px;
+}
+
+.sign-up{
+    color: red;
+    cursor: pointer;
+}
+
+.sign-up:hover{
+    text-decoration: underline;
+}
+
+.content{
+    margin-left: 700px;
+    margin-top: 50px;
+}
+
+.Email-Error,
+.Password-Error {
+    /* height: 30px;*/
+    margin-bottom: 8px;
+    margin-top: -5px; 
+    color: red;
+}

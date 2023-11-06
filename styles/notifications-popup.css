@@ -1,0 +1,283 @@
+.notifications-content {
+    background-color: white;
+    width: 350px;
+    height: 710px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-left: 30px;
+    position: fixed;
+    left: 81px;
+    z-index: 1;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 25px;
+    margin-bottom: 5px;
+}
+
+.sub-header {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 18px;
+}
+
+.notifications-container {
+    margin-top: 5px;
+}
+
+.container-content {
+    display: inline-block;
+    line-height: 18px;
+    margin-top: 15px;
+    width: 185px;
+}
+
+.container-content1 {
+    display: inline-block;
+    line-height: 18px;
+    margin-top: 15px;
+}
+
+.excoba,
+.who-follow,
+.others,
+.user1 {
+    font-size: 14px;
+}
+
+.others1 {
+    font-size: 14px;
+    width: 210px;
+}
+
+.emoji {
+    height: 10px;
+    margin-left: -3px;
+}
+
+.follow {
+    vertical-align: top;
+    margin-top: 25px;
+    background-color: rgb(0, 120, 233);
+    /* margin-left: 12px; */
+    padding: 8px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.follow1 {
+    vertical-align: top;
+    margin-top: 35px;
+    background-color: rgb(0, 120, 233);
+    /* margin-left: 12px; */
+    padding: 8px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.follow2 {
+    vertical-align: top;
+    margin-top: 35px;
+    background-color: rgb(0, 120, 233);
+    /* margin-left: 12px; */
+    padding: 8px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.user-story {
+    padding-top: 2px;
+    height: 57px;
+    margin-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 3px;
+    border: 1px solid rgb(216, 14, 216);
+    border-radius: 35px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.preview {
+    height: 51px;
+    margin-bottom: -1px;
+    width: 50px;
+    border-radius: 35px;
+}
+
+.user-story1 {
+    padding-top: 2px;
+    height: 57px;
+    margin-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 3px;
+    border: none;
+    border-radius: 35px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.preview1 {
+    height: 51px;
+    margin-bottom: 8px;
+    width: 50px;
+    border-radius: 35px;
+}
+
+.user-story2 {
+    padding-top: 2px;
+    height: 57px;
+    margin-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 3px;
+    border: none;
+    border-radius: 35px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.preview2 {
+    height: 50px;
+    margin-bottom: 2px;
+    width: 50px;
+    border-radius: 35px;
+}
+
+.post-preview {
+    height: 50px;
+    margin-bottom: 2px;
+    margin-left: 30px;
+    width: 50px;
+    cursor: pointer;
+    /* border-radius: 35px; */
+}
+
+.user-story3 {
+    /* padding-top: 2px; */
+    height: 40px;
+    /* margin-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    padding-right: 1px; */
+    /* border: 1px solid rgb(216, 14, 216); */
+    border-radius: 35px;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 25px;
+    position: relative;
+}
+
+.preview3 {
+    height: 35px;
+    margin-bottom: 2px;
+    width: 36px;
+    border-radius: 35px;
+}
+
+.second-preview {
+    height: 32px;
+    margin-bottom: 2px;
+    width: 32px;
+    position: absolute;
+    top: 10px;
+    right: -15px;
+    border-radius: 35px;
+    border: 3px solid white;
+}
+
+.user-story4 {
+    /* padding-top: 2px; */
+    height: 40px;
+    /* margin-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    padding-right: 1px; */
+    /* border: 1px solid rgb(216, 14, 216); */
+    border-radius: 35px;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 10px;
+    position: relative;
+}
+
+.preview4 {
+    height: 50px;
+    margin-bottom: 2px;
+    width: 50px;
+    border-radius: 35px;
+}
+
+.l {
+    vertical-align: bottom;
+    /* margin-top: 50px; */
+}
+
+.mightyfilmclub {
+    margin-top: 15px;
+    vertical-align: bottom;
+}
+
+.user-story5 {
+    padding-top: 2px;
+    height: 57px;
+    margin-right: 5px;
+    margin-top: 25px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 3px;
+    border: none;
+    border-radius: 35px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.preview5 {
+    height: 51px;
+    /* margin-bottom: 8px; */
+    width: 50px;
+    border-radius: 35px;
+}
+
+.user1 {
+    display: block;
+}
+
+.days {
+    font-size: 14px;
+}
+
+.notifications-border {
+    border-bottom: 1px solid rgb(223, 223, 223);
+    margin-left: -30px;
+    padding-top: 15px;
+}
+
+.bottom-border {
+    border-bottom: 1px solid rgb(223, 223, 223);
+    padding-bottom: 25px;
+    margin-left: -30px;
+}
+
+.this-month {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 18px;
+}
